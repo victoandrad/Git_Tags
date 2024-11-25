@@ -6,6 +6,12 @@ public class Main {
         User user = new User("Victor Andrade", 19);
         System.out.println(user);
 
+        System.out.println("A soma dos números 2 e 10 é " + somar(2.0, 10.0));
+
+    }
+
+    public static Double somar(Double value1, Double value2) {
+        return value1 + value2;
     }
 }
 
